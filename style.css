@@ -22,13 +22,13 @@ body {
   background-color: var(--color-2);
 }
 :root {
-  --color-1: #5e8cba;
+  --color-1: #99bbde;
   --color-2: #253d55;
-  --color-3: #8ea1b5;
+  --color-3: #3a09a3;
   --trans-bg: #e3e6e8ba;
-  --container-back: #cfdce8;
+  --container-back: #74a977;
   --stroke-color: #253d55;
-  --yellow-bg: #FFBB5C;
+  --yellow-bg: #656511;
 }
 .light{
   font-weight: 400;
@@ -238,6 +238,7 @@ body {
   margin-top: 10px;
   box-shadow:inset 0 0 10px var(--color-3);
   cursor: pointer;
+  display: flex;
 }
 .learn_more a {
   font-family: 'Poppins', sans-serif;
